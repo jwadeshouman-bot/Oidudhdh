@@ -55,7 +55,7 @@ def outfit_image():
         return {"error": "Key Error"}, 401
     
     try:
-        api_url = f"http://159.223.110.159:60517/player-info?uid={uid}&region={region}"
+        api_url = f"http://159.223.110.159:45667/Info?uid={uid}&region={region}"
         data = session.get(api_url).json()
     except:
         return {"error": "API Down"}, 500
