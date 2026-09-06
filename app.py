@@ -8,7 +8,7 @@ import threading
 app = Flask(__name__)
 session = requests.Session()
 
-API_KEY = "Whyfigage"
+API_KEY = "M7MAD_FF_1"
 BACKGROUND_FILENAME = "outfit.png"
 ICON_SIZE = (95, 95)
 
